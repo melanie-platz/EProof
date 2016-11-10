@@ -1,0 +1,88 @@
+<EPROOF>
+  <VARIABLE NAME='Theorem_Title' VALUE='Equipotent Sets' />
+  <VARIABLE NAME='Theorem_Label' VALUE='Theorem' />
+  <VARIABLE NAME='Author' VALUE='Melanie Platz' />
+  <VARIABLE NAME='eMail' VALUE='platz@uni-landau.de' />
+  <VARIABLE NAME='LANGUAGE' VALUE='EN' />
+  <VARIABLE NAME='Theorem_Appendix' VALUE='See __lt__a  href__eq____qu__https://en.wikipedia.org/wiki/Countable_set__qu__ target__eq____qu__blank__qu____gt__Countable Set__lt__/a__gt__ for a more details.' />
+  <VARIABLE NAME='Per_Error_Minus_Percent' VALUE='10' />
+  <VARIABLE NAME='Assessment_Minus_Percent' VALUE='2' />
+  <VARIABLE NAME='Suggestion_Minus_Percent' VALUE='17' />
+  <VARIABLE NAME='unnecessary_connections' VALUE='3' />
+  <VARIABLE NAME='unnecessary_proofsteps' VALUE='3' />
+  <VARIABLE NAME='unnecessary_justifications' VALUE='3' />
+  <VARIABLE NAME='selectbox_proofsteps' VALUE='1' />
+  <VARIABLE NAME='allow_own_proofsteps' VALUE='1' />
+  <VARIABLE NAME='remap_proofstep_IDs' VALUE='1' />
+  <VARIABLE NAME='randomize_proofstep_IDs' VALUE='1' />
+  <VARIABLE NAME='cryptkey' VALUE='ACBSD' />
+  <VARIABLE NAME='show_Load_Save_Control' VALUE='1' />
+  <VARIABLE NAME='show_Main_Control' VALUE='1' />
+  <VARIABLE NAME='show_links' VALUE='1' />
+  <VARIABLE NAME='show_assessment' VALUE='1' />
+  <VARIABLE NAME='show_suggestions' VALUE='1' />
+  <VARIABLE NAME='show_proof_solution' VALUE='1' />
+  <VARIABLE NAME='AuthoringMode' VALUE='1' />
+  <VARIABLE NAME='AssessmentMode' VALUE='0' />
+  <VARIABLE NAME='MathFormat' VALUE='AM_HTMLorMML' />
+  <VARIABLE NAME='COMMONCONTROL' VALUE='4980__co__4981__co__4982__co__4983' />
+  <VARIABLE NAME='QUESTIONTEXT' VALUE='4980__co__4981__co__4982__co__4983' />
+  <VARIABLE NAME='vQID' VALUE='QKKTFF' />
+  <VARIABLE NAME='alertDOM' VALUE='0' />
+  <VARIABLE NAME='CODE_ID_I' VALUE='4001' />
+  <VARIABLE NAME='CODE_ID_II' VALUE='4002' />
+  <VARIABLE NAME='CODE_ID_III' VALUE='4200' />
+  <VARIABLE NAME='Offline' VALUE='1' />
+  <VARIABLE NAME='Date' VALUE='10.11.2016' />
+  <VARIABLE NAME='' VALUE='undefined' />
+  <VARLIST NAME='PRECONDITION_OPTIONS'>
+    <STEPDEF SIZE='2' ID='P1' VALUE='__math__ZZ__math__ is the set of integers.' />
+    <STEPDEF SIZE='2' ID='P2' VALUE='Let __math__2NN__math__ be the set __math__{x in NN | exists k in NN: x__eq__ 2k}__math__ and let __math__2NN-1__math__ be the set __math__{x in NN | exists k in NN: x__eq__ 2k-1}__math__. ' />
+  </VARLIST>
+  <VARLIST NAME='CONCLUSION_OPTIONS'>
+    <STEPDEF SIZE='2' ID='C1' VALUE='__math__ZZ__math__ is countable.' />
+  </VARLIST>
+  <VARLIST NAME='JUSTIFICATION_OPTIONS'>
+    <STEPDEF SIZE='2' ID='COU' VALUE='Definition Countable' />
+    <STEPDEF SIZE='2' ID='EQU' VALUE='Definition Equipotent' />
+    <STEPDEF SIZE='2' ID='BIJ' VALUE='Definition Bijectivity' />
+    <STEPDEF SIZE='2' ID='INJ' VALUE='Definition Injectivity' />
+    <STEPDEF SIZE='2' ID='SURJ' VALUE='Definition Surjectivity' />
+    <STEPDEF SIZE='2' ID='LOG' VALUE='As the functional value of __math__f(x_1)__math__ will be positive and the functional value of __math__f(x_2)__math__ will not be positive (or vice versa)__co__ it is __math__f(x_1) ne f(x_2)__math____co__ that is __math__|f(x_1) __eq__ f(x_2)|__eq__f__math__. ' />
+  </VARLIST>
+  <VARLIST NAME='PROOFSTEP_OPTIONS'>
+    <STEPDEF SIZE='2' ID='S1' VALUE='To show: The mapping __math__f: NN -__gt__ ZZ__math__with __math__f(x)__eq__1/2 x__math____co__ if x even and __math__f(x)__eq__-1/2 (x-1)__math____co__ if x odd__co__ is bijective.' />
+    <STEPDEF SIZE='2' ID='S3' VALUE='Injectivity: (To show: __math__forall x_1__co__x_2 in NN: f(x_1)__eq__f(x_2) -__gt__ x_1__eq__x_2__math__).' />
+    <STEPDEF SIZE='2' ID='S4' VALUE='Case: __math__x_1__co__x_2__math__ even. Let __math__x_1__co__ x_2 in 2NN__math__ be arbitrary and the precondition __math__f(x_1)__eq__f(x_2)__math__ is valid.' />
+    <STEPDEF SIZE='2' ID='S5' VALUE='__math__1/2 x_1 __eq__ 1/2 x_2__math__' />
+    <STEPDEF SIZE='2' ID='S6' VALUE='__math__x_1 __eq__ x_2__math__' />
+    <STEPDEF SIZE='2' ID='S7' VALUE='Case: __math__x_1__co__x_2__math__ odd. Let __math__x_1__co__ x_2 in 2NN-1__math__ be arbitrary and the precondition __math__f(x_1)__eq__f(x_2)__math__ is valid.' />
+    <STEPDEF SIZE='2' ID='S8' VALUE='__math__-1/2(x_1-1) __eq__ -1/2 (x_2-1)__math__' />
+    <STEPDEF SIZE='2' ID='S9' VALUE='__math__x_1 __eq__ x_2__math__' />
+    <STEPDEF SIZE='2' ID='S10' VALUE='Case: __math__x_1__math__ even and  __math__x_2__math__ odd or vice versa. ' />
+    <STEPDEF SIZE='2' ID='S11' VALUE='__math__x_1 __eq__ x_2__math__' />
+    <STEPDEF SIZE='2' ID='S12' VALUE='Surjectivity: (To show: __math__forall y in ZZ exists x in NN: f(x)__eq__y__math__).' />
+    <STEPDEF SIZE='2' ID='S13' VALUE='Case: __math__x__math__ even (and consequently __math__y__gt__0__math__). Let __math__y in ZZ^+__math__ be arbitrary. Choose __math__x__eq__2y in 2 NN__math__.  ' />
+    <STEPDEF SIZE='2' ID='S14' VALUE='__math__f(x)__eq__1/2x__eq__1/2 cdot 2y__eq__y__math__' />
+    <STEPDEF SIZE='2' ID='S15' VALUE='Case: __math__x__math__ odd (and consequently __math__y__lt____eq__0__math__). Let __math__y in ZZ^{-} cup {0}__math__ be arbitrary. Choose __math__x__eq__2(-y)+1 in 2 NN-1__math__.  ' />
+    <STEPDEF SIZE='2' ID='S16' VALUE='__math__f(x)__eq__-1/2(x-1)__eq__-1/2((2(-y)+1)-1)__eq__-1/2(2(-y))__eq__y__math__' />
+    <STEPDEF SIZE='2' ID='S17' VALUE='__math__ZZ__math__ is equipotent to __math__NN__math__' />
+    <STEPDEF SIZE='5' ID='P1' CONNECTION=' ' JUST='' OPTJUST='' VALUE='' />
+    <STEPDEF SIZE='5' ID='S1' CONNECTION='__eq____gt__' JUST='COU,EQU' OPTJUST='' VALUE='To show: The mapping __math__f: NN -__gt__ ZZ__math__with __math__f(x)__eq__1/2 x__math____co__ if x even and __math__f(x)__eq__-1/2 (x-1)__math____co__ if x odd__co__ is bijective.' />
+    <STEPDEF SIZE='5' ID='S3' CONNECTION='TEXT' JUST='BIJ,INJ' OPTJUST='' VALUE='Injectivity: (To show: __math__forall x_1__co__x_2 in NN: f(x_1)__eq__f(x_2) -__gt__ x_1__eq__x_2__math__).' />
+    <STEPDEF SIZE='5' ID='S4' CONNECTION='TEXT' JUST='' OPTJUST='' VALUE='Case: __math__x_1__co__x_2__math__ even. Let __math__x_1__co__ x_2 in 2NN__math__ be arbitrary and the precondition __math__f(x_1)__eq__f(x_2)__math__ is valid.' />
+    <STEPDEF SIZE='5' ID='S5' CONNECTION='__eq____gt__' JUST='' OPTJUST='' VALUE='__math__1/2 x_1 __eq__ 1/2 x_2__math__' />
+    <STEPDEF SIZE='5' ID='S6' CONNECTION='__eq____gt__' JUST='' OPTJUST='' VALUE='__math__x_1 __eq__ x_2__math__' />
+    <STEPDEF SIZE='5' ID='S7' CONNECTION='TEXT' JUST='' OPTJUST='' VALUE='Case: __math__x_1__co__x_2__math__ odd. Let __math__x_1__co__ x_2 in 2NN-1__math__ be arbitrary and the precondition __math__f(x_1)__eq__f(x_2)__math__ is valid.' />
+    <STEPDEF SIZE='5' ID='S8' CONNECTION='__eq____gt__' JUST='' OPTJUST='' VALUE='__math__-1/2(x_1-1) __eq__ -1/2 (x_2-1)__math__' />
+    <STEPDEF SIZE='5' ID='S9' CONNECTION='__eq____gt__' JUST='' OPTJUST='' VALUE='__math__x_1 __eq__ x_2__math__' />
+    <STEPDEF SIZE='5' ID='S10' CONNECTION='TEXT' JUST='' OPTJUST='' VALUE='Case: __math__x_1__math__ even and  __math__x_2__math__ odd or vice versa. ' />
+    <STEPDEF SIZE='5' ID='S11' CONNECTION='__eq____gt__' JUST='LOG' OPTJUST='' VALUE='__math__x_1 __eq__ x_2__math__' />
+    <STEPDEF SIZE='5' ID='S12' CONNECTION='TEXT' JUST='SURJ,BIJ' OPTJUST='' VALUE='Surjectivity: (To show: __math__forall y in ZZ exists x in NN: f(x)__eq__y__math__).' />
+    <STEPDEF SIZE='5' ID='S13' CONNECTION='TEXT' JUST='' OPTJUST='' VALUE='Case: __math__x__math__ even (and consequently __math__y__gt__0__math__). Let __math__y in ZZ^+__math__ be arbitrary. Choose __math__x__eq__2y in 2 NN__math__.  ' />
+    <STEPDEF SIZE='5' ID='S15' CONNECTION='__eq____gt__' JUST='' OPTJUST='' VALUE='Case: __math__x__math__ odd (and consequently __math__y__lt____eq__0__math__). Let __math__y in ZZ^{-} cup {0}__math__ be arbitrary. Choose __math__x__eq__2(-y)+1 in 2 NN-1__math__.  ' />
+    <STEPDEF SIZE='5' ID='S16' CONNECTION='TEXT' JUST='' OPTJUST='' VALUE='__math__f(x)__eq__-1/2(x-1)__eq__-1/2((2(-y)+1)-1)__eq__-1/2(2(-y))__eq__y__math__' />
+    <STEPDEF SIZE='5' ID='S17' CONNECTION='__eq____gt__' JUST='' OPTJUST='' VALUE='__math__ZZ__math__ is equipotent to __math__NN__math__' />
+    <STEPDEF SIZE='5' ID='C1' CONNECTION='__eq____gt__' JUST='COU' OPTJUST='' VALUE='' />
+  </VARLIST>
+</EPROOF>
